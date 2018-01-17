@@ -57,6 +57,13 @@ public class P6 {
         } while (response.equalsIgnoreCase("yes"));
     }
 
+    /**
+     * Program to (find the exchange rate bones)
+     *
+     * @param dollar ( The user's inputed amount of dollars wanted converted)
+     * @param currency ( the yen, eros, or pounds)
+     * @return (The exchange rate bonus)
+     */
     public static double conversion(double dollar, double currency) {
         if (dollar > 100) {
             return (dollar * 0.95 * currency);
