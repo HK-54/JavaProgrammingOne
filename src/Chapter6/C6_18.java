@@ -25,6 +25,12 @@ public class C6_18 {
         charcheck(Userin);
     }
 
+    /**
+     * Program to (To check if the password the proper length)
+     *
+     * @param prime (the User's input)
+     * @return (valid input or invalid input)
+     */
     public static String charcheck(String prime) {
         int passwordchar = prime.length();
         int Ppasswordchar = (passwordchar);
@@ -36,6 +42,12 @@ public class C6_18 {
         return null;
     }
 
+    /**
+     * Program to (check the password for any symbols)
+     *
+     * @param Userin (the User's input)
+     * @return (valid input or invalid input)
+     */
     public static String lettercheck(String Userin) {
         if (Userin.matches("[a-zA-Z0-9]*")) {
             dublenumb(Userin);
@@ -45,6 +57,12 @@ public class C6_18 {
         return null;
     }
 
+    /**
+     * Program to (check the password for at least 2 numbers)
+     *
+     * @param Userin (the User's input)
+     * @return (valid input or invalid input)
+     */
     public static String dublenumb(String Userin) {
         if (Userin.matches(".*[0-9]. *[0-9]*")) {
             System.out.println("Valid input");
