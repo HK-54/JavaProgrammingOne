@@ -1,13 +1,13 @@
 package Chapter7;
 
+import java.util.Scanner;
+import java.util.Arrays;
+
 /**
  * Program to (Populate a given array with given number)
  *
  * @author LouisTran
  */
-import java.util.Scanner;
-import java.util.Arrays;
-
 public class P7 {
 
     /**
@@ -28,7 +28,7 @@ public class P7 {
     }
 
     /**
-     * Main Method
+     * Method that populates the array
      *
      * @param Prime it populates the array with the given input
      */
@@ -40,7 +40,7 @@ public class P7 {
     }
 
     /**
-     * Main Method
+     * Method that finds the average of the array
      *
      * @param Prime (finds the average of all the numbers in the array)
      * @return(the average average of the numbers in the array)

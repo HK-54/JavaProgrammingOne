@@ -4,9 +4,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Program to
+ * Program to(finds the smallest number of an array)
  *
- * @author lt1002767
+ * @author LouisTran
  */
 public class C7_9 {
 
@@ -27,6 +27,7 @@ public class C7_9 {
         System.out.println("The min of the array is " + prime);
 //finding the smallest array
     }
+
     /**
      * Program to (find the min of the array)
      *
