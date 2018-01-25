@@ -58,7 +58,7 @@ public class P6 {
     }
 
     /**
-     * Program to (find the exchange rate bones)
+     * Method to (find the exchange rate bones)
      *
      * @param dollar ( The user's inputed amount of dollars wanted converted)
      * @param currency ( the yen, eros, or pounds)

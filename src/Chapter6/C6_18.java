@@ -26,7 +26,7 @@ public class C6_18 {
     }
 
     /**
-     * Program to (To check if the password the proper length)
+     * Method to (To check if the password the proper length)
      *
      * @param prime (the User's input)
      * @return (valid input or invalid input)
@@ -43,7 +43,7 @@ public class C6_18 {
     }
 
     /**
-     * Program to (check the password for any symbols)
+     * Method to (check the password for any symbols)
      *
      * @param Userin (the User's input)
      * @return (valid input or invalid input)
@@ -58,7 +58,7 @@ public class C6_18 {
     }
 
     /**
-     * Program to (check the password for at least 2 numbers)
+     * Method to (check the password for at least 2 numbers)
      *
      * @param Userin (the User's input)
      * @return (valid input or invalid input)

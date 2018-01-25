@@ -3,9 +3,9 @@ package Chapter7;
 import java.util.Scanner;
 
 /**
- * Program to (Uses the highest inputed grade to give the others a grade) 
+ * Program to (Uses the highest inputed grade to give the others a grade)
  *
- * @author lt1002767
+ * @author LouisTran
  */
 public class C7_1 {
 
